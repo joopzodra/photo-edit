@@ -1,0 +1,13 @@
+#app-container {
+  display: flex;
+  height: 100vh;
+}
+
+app-file-explorer {
+  flex: 1 1 30%;
+  height: 100%;
+}
+
+app-editor {
+  flex: 1 1 70%;
+}
